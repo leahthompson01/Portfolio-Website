@@ -1755,14 +1755,19 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 55px;
-			height: 55px;
+			width: 60%;
+			margin: 0 auto;
+			height: auto;
+			/*width: 55px;
+			height: 55px; */
 			background: #DFE3E3;
 		}
 
 			.image.avatar48 img {
-				width: 55px;
-				height: 55px;
+				/*width: 55px;
+				height: 55px;*/
+				width: 100%;
+			height: auto;
 			}
 
 		.image.fit {
@@ -2102,9 +2107,11 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			margin-left: 1.2%;
-			position: relative;
+			/*margin-left: 1.2%; */
+			/*position: relative; */
 			color: #fff;
+			text-align: center;
+			width: 100%;
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
@@ -2120,9 +2127,13 @@ input, select, textarea {
 		}
 
 		#logo .image {
-			position: absolute;
+			/*position: absolute; 
 			left: 0;
-			top: 0;
+			top: 0; */
+			width: 60%;
+			display: flex;
+			justify-content: center;
+			margin-bottom: 0.5em;
 		}
 
 	#nav ul {
@@ -2282,17 +2293,18 @@ input, select, textarea {
 
 		/* Header */
 
-			#header {
-				width: 225px;
-			}
-			#header #logo h1 {
-				width: 40%;
-				margin-left: 40%;
-			}
-			#logo p {
-				margin-top: 7%;
-				padding-left: 15px;
-			}
+		#header {
+			width: 225px;
+		}
+		#header #logo h1 {
+			width: 100%;
+		/*	margin-left: 40%; */
+		}
+		#logo p {
+			margin-top: 7%;
+			text-align: center;
+			/* padding-left: 15px; */
+		}
 
 		/* Footer */
 
@@ -2317,12 +2329,13 @@ input, select, textarea {
 			width: 225px;
 		}
 		#header #logo h1 {
-			width: 40%;
-			margin-left: 40%;
+			width: 100%;
+		/*	margin-left: 40%; */
 		}
 		#logo p {
 			margin-top: 7%;
-			padding-left: 15px;
+			text-align: center;
+			/* padding-left: 15px; */
 		}
 
 			#main > section {
@@ -2367,8 +2380,10 @@ input, select, textarea {
 				width: 18%;
 			}
 			#logo .image {
-				position: relative;
-				margin: 0 0 0.5em 0;
+			/*	position: relative;
+				margin: 0 0 0.5em 0; */
+				width: 60%;
+				height: auto;
 			}
 			#logo p {
 				width: 100%;
@@ -2486,7 +2501,12 @@ input, select, textarea {
 			#logo {
 				margin: 1.5em 1.25em 1.25em 1.25em;
 			}
-
+			#logo .image {
+				width: 40%;
+			}
+			#logo p {
+				text-align: center;
+			}
 			#nav ul li a {
 				padding: 0.5em 1.25em 0.5em 1.25em;
 			}
@@ -2620,6 +2640,9 @@ input, select, textarea {
 
 			.container {
 				padding: 0 15px 0 15px;
+			}
+			#logo .image {
+				width: 40%;
 			}
 
 		/* List */
