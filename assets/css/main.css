@@ -222,9 +222,7 @@ input, select, textarea {
 		line-height: 50px;
 		font-weight: 700;
 	}
-	div > article {
-		border: 1px solid red;
-	}
+	
 /* Container */
 
 	.container {
@@ -280,7 +278,6 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
-		border: 1px solid red;
 	}
 
 		.row > * {
@@ -345,7 +342,6 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 50%;
-			border: 1px solid red;
 		}
 
 		.row > .off-4 {
