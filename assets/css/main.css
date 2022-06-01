@@ -1762,7 +1762,7 @@ input, select, textarea {
 		border: 0;
 	}
 
-		.image img {
+		.image img, .image video {
 			display: block;
 			width: 100%;
 		}
