@@ -3,7 +3,16 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+const videos = document.querySelector('video')
+videos.addEventListener('mouseover',hoverVideo)
 
+function hoverVideo() {  
+    this.play(); 
+}
+
+function hideVideo() {
+    this.pause(); 
+}
 (function($) {
 
 	var	$window = $(window),
@@ -100,12 +109,12 @@
 	// Header (narrower + mobile).
 
 		// Toggle.
-			$(
-				'<div id="headerToggle">' +
-					'<a href="#header" class="toggle"></a>' +
-				'</div>'
-			)
-				.appendTo($body);
+			// $(
+			// 	'<div id="headerToggle">' +
+			// 		'<a href="#header" class="toggle"></a>' +
+			// 	'</div>'
+			// )
+			// 	.appendTo($body);
 
 		// Header.
 			$('#header')
