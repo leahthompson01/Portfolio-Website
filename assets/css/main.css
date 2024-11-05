@@ -2014,6 +2014,10 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
+			.item a img {
+				min-height: 170px;
+				max-height: 190px;
+			}
 /* Icons */
 
 	.icon {
