@@ -2014,10 +2014,18 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
-			.item a img {
-				min-height: 170px;
-				max-height: 190px;
+			.materiaMagica a img {
+				max-height: 158px;
 			}
+
+.portfolioRow{
+	display: grid;
+	grid-template-columns: 300px 300px;
+	justify-content: center;
+	align-content: center;
+	grid-column-gap: 50px;
+	grid-template-rows: auto;
+}
 /* Icons */
 
 	.icon {
@@ -2646,6 +2654,13 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+		.portfolioRow{
+			display: grid;
+			grid-template-columns: 300px;
+			justify-content: center;
+			align-content: center;
+			grid-template-rows: auto;
+		}
 
 			body, input, textarea, select {
 				font-size: 14pt;
